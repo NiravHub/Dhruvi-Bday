@@ -25,12 +25,21 @@
       max-width: 800px;
     }
 
+    .glow {
+      color: #fff;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #ff4b5c,
+                   0 0 15px #ff4b5c,
+                   0 0 20px #ff4b5c,
+                   0 0 30px #ff4b5c;
+    }
+
     /* Balloons */
     .balloon {
       width: 50px;
       height: 70px;
       background: #ff6b81;
-      border-radius: 50% 50% 50% 50%;
+      border-radius: 50%;
       position: absolute;
       bottom: -100px;
       animation: float 8s infinite ease-in;
@@ -109,22 +118,28 @@
   </style>
 </head>
 <body>
-  <h1>🎂 Happy 19th Birthday, Dhruvi! 🎉</h1>
+
+  <h1>🎂 Happy 19th Birthday, <span class="glow">Dhruvi</span>! 🎉</h1>
 
   <p>
-    Wishing you a day filled with joy, laughter, and memories you'll never forget.<br>
-    You're not just a year older, you're 19 times more amazing! 💖
+    Wishing you a day filled with joy, laughter, and memories you'll never forget. <br>
+    You're not just a year older — you're 19 times more wonderful! 💖
   </p>
 
-  
-
-  <p style="font-style: italic; font-size: 1.3em; margin-top: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
-    Sometimes, I look back at the way things were — the laughs, the late-night talks, the silly jokes, and how effortless it all felt.  
-    Life may have changed a few things… but a part of me still hopes we find that version of “us” again — maybe even something better.  
-    I just miss that comfort — and you. 🌼
+  <p style="font-style: italic; font-size: 1.3em; margin-top: 40px;">
+    Dhruvi, you're one of those rare people whose presence makes everything brighter.  
+    Even after all this time, your smile still stays in my thoughts.  
+    If I had a chance to rewind, I’d choose to meet you again and do things even better.  
+    No matter where we go from here, you'll always have a special place in my heart. ❤️
   </p>
 
-  <!-- Cake with multiple candles -->
+  <p style="font-style: italic; font-size: 1.3em;">
+    Sometimes, I look back at how things used to be — effortless, fun, and genuine.  
+    Maybe we can find that comfort again… or create something even better.  
+    Just know, I never stopped caring. 🌹
+  </p>
+
+  <!-- Cake with candles -->
   <div class="cake">
     <div class="candles">
       <div class="candle"><div class="flame"></div></div>
@@ -161,5 +176,6 @@
       });
     }, 2000);
   </script>
+
 </body>
 </html>
